@@ -1,5 +1,8 @@
 data/healthcare-dataset-stroke-data.csv
 data/heart_attack_prediction_dataset.csv
+heart_attack_prediction_dataset.csv
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
