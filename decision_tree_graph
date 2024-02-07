@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="age <= -0.278\nentropy = 1.0\nsamples = 7778\nvalue = [3889, 3889]\nclass = No Stroke", fillcolor="#ffffff"] ;
+1 [label="age <= -0.816\nentropy = 0.439\nsamples = 2534\nvalue = [2304, 230]\nclass = No Stroke", fillcolor="#e88e4d"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+5 [label="entropy = 0.167\nsamples = 1661\nvalue = [1620, 41]\nclass = No Stroke", fillcolor="#e6843e"] ;
+1 -> 5 ;
+6 [label="entropy = 0.754\nsamples = 873\nvalue = [684, 189]\nclass = No Stroke", fillcolor="#eca470"] ;
+1 -> 6 ;
+2 [label="missing bmi <= 0.994\nentropy = 0.884\nsamples = 5244\nvalue = [1585, 3659]\nclass = Stroke", fillcolor="#8fc7f0"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="entropy = 0.945\nsamples = 4204\nvalue = [1524, 2680]\nclass = Stroke", fillcolor="#aad5f4"] ;
+2 -> 3 ;
+4 [label="entropy = 0.322\nsamples = 1040\nvalue = [61, 979]\nclass = Stroke", fillcolor="#45a3e7"] ;
+2 -> 4 ;
+}
